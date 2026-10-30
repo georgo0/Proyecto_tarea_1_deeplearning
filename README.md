@@ -2,9 +2,7 @@
   Integrante:
   * Jorge Gallegos Venegas
 
-# Clasificación de Objetos Astronómicos del SDSS mediante Redes Neuronales Profundas
-
-Repositorio para la Tarea 1 del curso de Deep Learning . Consiste en la implementación y evaluación de un conjunto de diferentes modelos de Redes Neuronales Profundas (DNN) para datos tabulares, analizando el impacto del ajuste de hiperparámetros, arquitecturas y técnicas de regularización en un problema de clasificación multiclase a gran escala.
+Repositorio para la Tarea 1 del curso de Deep Learning . Consiste en la implementación y evaluación de un conjunto de diferentes modelos de Redes Neuronales Profundas (DNN) para datos tabulares, analizando el impacto del ajuste de hiperparámetros, arquitecturas y técnicas de regularización en un problema de clasificación multiclase.
 
 ## Descripción del Problema y Dataset
 
