@@ -1,6 +1,9 @@
 # Tarea 1 Deep Learning: Clasificación de datos astronómicos del SDSS mediante una DNN
   Integrante:
   * Jorge Gallegos Venegas
+    
+## Stack utilizado
+[![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white&style=flat)](https://www.python.org/)
 
 Repositorio para la Tarea 1 del curso de Deep Learning . Consiste en la implementación y evaluación de un conjunto de diferentes modelos de Redes Neuronales Profundas (DNN) para datos tabulares, analizando el impacto del ajuste de hiperparámetros, arquitecturas y técnicas de regularización en un problema de clasificación multiclase.
 
@@ -29,9 +32,7 @@ Como etapa comparativa, se empleó la herramienta AutoKeras para automatizar el 
 * https://skyserver.sdss.org/dr16/en/tools/search/sql.aspx
 * https://zenodo.org/records/3768398
 
-## Stack utilizado
 
-[![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white&style=flat)](https://www.python.org/)
 
 # Configuración previa
 
