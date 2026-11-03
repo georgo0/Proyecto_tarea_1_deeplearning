@@ -17,21 +17,20 @@ El proyecto aborda la clasificación supervisada de objetos astronómicos en tre
 
 ## Trabajo Realizado
 
-### 1. Diseño e Implementación Manual de DNNs
+### 1. Diseño manual de DNNs
 Se diseñaron y construyeron múltiples arquitecturas secuenciales de forma manual para encontrar un modelo que se ajustara adecuadamente al problema:
 
-* **Variación de arquitectura:** Evaluación de modelos con distinta profundidad y capacidad, variando desde arquitecturas livianas de 4 capas ocultas hasta redes más profundas de 7 capas.
-* **Técnicas de regularización:** Experimentación con técnicas para prevenir el sobreajuste, incorporando capas de Dropout (tanto con tasas fijas como diferenciadas por capa), regularización L2 en los pesos y normalización por lotes (BatchNormalization).
-* **Optimizadores e hiperparámetros:** Comparación entre diferentes algoritmos de optimización (RMSprop y SGD con Momentum y aceleración Nesterov), ajustando parámetros como la tasa de aprendizaje (learning rate) y el tamaño de lote (batch size).
-* **Curvas de convergencia:** Registro y visualización del comportamiento de la pérdida (loss) y la precisión (accuracy) a lo largo de las épocas de entrenamiento para validar el aprendizaje y detectar posible overfitting.
+* **Variación de arquitectura:** Evaluación de modelos con distinta profundidad y capacidad.
+* **Técnicas de regularización:** Experimentación con técnicas para prevenir el overfitting, incorporando capas de Dropout (tanto con tasas fijas como diferenciadas por capa), regularización L2 en los pesos y BatchNormalization.
+* **Optimizadores e hiperparámetros:** Comparación entre diferentes algoritmos de optimización (RMSprop y SGD con Momentum y aceleración Nesterov), ajustando parámetros como learning rate y el batch size.
+* **Curvas de convergencia:** Registro y visualización del comportamiento de loss y accuracy a lo largo de las épocas de entrenamiento para validar el aprendizaje y detectar posible overfitting.
 
-### 2. Búsqueda de Arquitectura Mediante AutoML
-Como etapa comparativa, se empleó la herramienta AutoKeras para automatizar el proceso de Búsqueda de Arquitecturas de Redes Neuronales (NAS) sobre datos estructurados[cite: 1, 25]. Esto permitió evaluar las decisiones tomadas de forma automática por la herramienta (elección del optimizador, profundidad de capas y normalización) y contrastar la eficiencia y complejidad de la arquitectura encontrada por AutoML frente a los diseños elaborados manualmente.
+### 2. Arquitectura mediante ´AutoML´
+Como etapa comparativa, se empleó la herramienta AutoKeras para automatizar el proceso de búsqueda de DNNs sobre datos estructurados. Esto permitió evaluar las decisiones tomadas de forma automática por la herramienta, como la elección del optimizador, profundidad de capas y normalización y contrastar la eficiencia y complejidad de la arquitectura encontrada por AutoML respecto a los diseños elaborados manualmente.
 
 ## Fuentes de donde se obtuvo los datos
 * https://skyserver.sdss.org/dr16/en/tools/search/sql.aspx
 * https://zenodo.org/records/3768398
-
 
 
 # Configuración previa
